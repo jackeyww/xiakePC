@@ -1,0 +1,82 @@
+
+.content{
+	margin-top: 15px !important;
+}
+.content .titleTwo{
+	width: 100%;
+	height: 50px;
+	background: url(../image/titlebg.png) no-repeat;
+}
+
+.content .tag{
+	color: #333 !important;
+	line-height: 50px !important;
+}
+.content p span{
+	color: red;
+}
+input{
+	height: 28px;
+	border: 1px solid rgba(180,180,180,0.5);
+	margin-left: 8px;
+	text-indent: 1rem;
+}
+
+.format{
+	margin-top: 10px;
+	position: relative;
+}
+.format span{
+	margin-top: 15px;
+	font-size: 14px;
+	width: 56px;
+	color: #333;
+	text-align: center;
+}
+.format .name{
+	width: 100px;
+	position: relative;
+}
+.format .number,.format .mail{
+	width: 200px;
+}
+.format .liuyan{
+	position: absolute;
+	top: 120px;
+}
+.format .message{
+	position: relative;
+	width: 420px;
+	height: 175px;
+	resize: none;
+	margin-left: 70px;
+	margin-top: 15px;
+	border: 1px solid rgba(180,180,180,0.5);
+}
+.format small{
+	color: red;
+	margin-left: 10px;
+}
+.redstar{
+	position: absolute;
+	top: 135px;
+}
+.format .code{
+	width: 80px;
+}
+.format .submit{
+	margin-top: 30px;
+	text-align: center;
+	color: #fff;
+	width: 85px;
+	text-indent: 0rem;
+	background: #D4383C;
+}
+.format .codeImg{
+	position: absolute;
+	height: 25px;
+	width: 70px;
+	background: url(../image/code.png) no-repeat;
+	background-size: 100% 100%;
+	bottom: 60px;
+}
